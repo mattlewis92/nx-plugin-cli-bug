@@ -74,6 +74,9 @@
       "options": {
         "jestConfig": "apps/nx-plugin-cli-bug/jest.config.ts"
       }
+    },
+    "plugin-test": {
+      "executor": "@myorg/my-plugin:build"
     }
   }
 }
